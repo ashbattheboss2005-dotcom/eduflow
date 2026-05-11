@@ -37,6 +37,7 @@ body {
 .cs-container {
   width: 90%;
   max-width: 1200px;
+  height: 105px;
 
   margin: auto;
 
@@ -48,8 +49,8 @@ body {
 }
 
 .cs-logo img {
-  width: 120px;
-  height: 80px;
+  width: 200px;
+  height: 105px;
   display: block;
 }
 
