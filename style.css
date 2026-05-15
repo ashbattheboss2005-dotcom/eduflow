@@ -2,7 +2,7 @@
   --primary: #ff8000;
   --headerColor: #1a1a1a;
   --bodyTextColor: #4e4b66;
-}/
+}
 
 /* RESET */
 
@@ -327,4 +327,105 @@ button:hover {
     gap: 20px;
   }
 
+}
+
+/* ============================================ */
+/*                   FOOTER                     */
+/* ============================================ */
+
+
+#cs-footer-274{
+    background:#081126;
+    padding:60px 8%;
+}
+
+#cs-footer-274 .cs-container{
+    height: auto;
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+
+    gap:40px;
+}
+
+#cs-footer-274 .cs-nav{
+    list-style:none;
+}
+
+#cs-footer-274 .cs-header{
+
+    color:white;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+}
+
+#cs-footer-274 .cs-nav-li{
+
+    margin-bottom:15px;
+
+    color:#d1d5db;
+
+    font-size:18px;
+}
+
+#cs-footer-274 .cs-nav-link{
+
+    text-decoration:none;
+
+    color:#d1d5db;
+
+    transition:.3s;
+}
+
+#cs-footer-274 .cs-nav-link:hover{
+
+    color:#ff8000;
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+#cs-footer-274{
+
+padding:50px 30px;
+
+}
+
+#cs-footer-274 .cs-container{
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+}
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    #cs-footer-274 .cs-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #cs-footer-274 .cs-logo-img {
+        width: 180px;
+    }
+
+}
+
+html,
+body{
+overflow-x:hidden;
 }
